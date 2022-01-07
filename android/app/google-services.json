@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032759312689",
+    "project_id": "fluttertestconsware",
+    "storage_bucket": "fluttertestconsware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032759312689:android:3fe60532a1a5b1a853f010",
+        "android_client_info": {
+          "package_name": "com.example.flutter_consware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032759312689-ksmka0ob448i2dlnn3bljhvqj3lm1lbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkoV4Qj7k9bQMGc2pfuMHn4lYnqOHyT-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032759312689-ksmka0ob448i2dlnn3bljhvqj3lm1lbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
