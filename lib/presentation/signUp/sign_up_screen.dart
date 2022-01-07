@@ -4,6 +4,7 @@ import 'package:flutter_consware/presentation/common/bottom_text.dart';
 import 'package:flutter_consware/presentation/common/input.dart';
 import 'package:flutter_consware/presentation/common/primary_burtton.dart';
 import 'package:flutter_consware/presentation/common/text_screen.dart';
+import 'package:flutter_consware/presentation/home/product.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:provider/provider.dart';
@@ -101,7 +102,7 @@ class SignUpScreen extends StatelessWidget {
                     await auth.handleSignUp();
 
                     if ( auth.signUpStatus == SignUpStatus.Registered ) {
-                      //Navigator.pushNamed(context, HomePage.routeName);
+                      Navigator.pushNamed(context, ProductPage.routeName);
                     } else {
                       Fluttertoast.showToast(
                         msg: auth.error,
